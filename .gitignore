@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer / test / coverage
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / local
+.idea/
+.vscode/
+.spyderproject/
+.spyproject/
+.ropeproject/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pypirc
+
+# Runtime artifacts (not part of the release)
+*.log
+weights/
+results/
+release_runs/
+release_assets/
+output/
+pretrained_pth/**/*.pth
+logs/
+**logs/
+paper-2d/
+*.pth
+!src/**/*.py
+
+# OS
+.DS_Store
+Thumbs.db
